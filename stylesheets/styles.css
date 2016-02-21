@@ -168,12 +168,7 @@ body {
   display: inline-block;
 }
 
-/*
-.youtube {
-	height: 100px !important;
-	max-width: 100% !important;
-}
-*/
+
 
 .youtube img {
 	height: 150px ;
@@ -182,7 +177,7 @@ body {
 
 
 h1 {
-  font-family: 'Josefin Sans', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: 'Josefin Sans', "Raleway", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 4em;
@@ -191,7 +186,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Josefin Sans', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: 'Josefin Sans', "Raleway", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-left: 10%;
@@ -219,7 +214,7 @@ h2 a {
 }
 
 h3 {
-  font: 2em 'Josefin Sans', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font: 2em 'Josefin Sans', "Raleway", Arial, Helvetica, Geneva, sans-serif;
   margin: 1em 0 0;
   padding-bottom: 0.5em;
 }
@@ -228,7 +223,16 @@ h3 {
   text-decoration: none;
   color: black;
   padding-right: 1em;
-  font: 1.5em 'Josefin Sans', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font: 1.5em 'Josefin Sans', "Raleway", Arial, Helvetica, Geneva, sans-serif;
+  width: 50%;
+  padding-top: 1px;
+}
+
+#interests p {
+  text-decoration: none;
+  color: black;
+  padding-right: 1em;
+  font: 1.5em 'Raleway', Arial, Helvetica, Geneva, sans-serif;
   width: 50%;
   padding-top: 1px;
 }
