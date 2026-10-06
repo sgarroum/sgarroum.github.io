@@ -32,6 +32,40 @@
 	}
 	.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 	footer { margin-top: 32px; }
+	.avatar { display: block; width: 120px; height: 120px; border-radius: 16px; object-fit: cover; }
+	.carousel { position: relative; margin: 12px 0 24px; }
+	.track {
+		display: flex;
+		gap: 12px;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+		padding-bottom: 8px;
+	}
+	.track iframe {
+		flex: 0 0 85%;
+		height: 560px;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		scroll-snap-align: start;
+		background: #fff;
+	}
+	.carousel button {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		border: 1px solid #ccc;
+		background: #fff;
+		font-size: 18px;
+		cursor: pointer;
+		box-shadow: 0 1px 4px rgba(0,0,0,.15);
+	}
+	.carousel .prev { left: -14px; }
+	.carousel .next { right: -14px; }
+	@media (max-width: 680px) { .carousel button { display: none; } .track iframe { flex-basis: 90%; } }
 </style>
 </head>
 
@@ -39,7 +73,9 @@
 <div id="maincontent">
 	<h2>Hey there 👋</h2>
 
-	<p>My name is Skander Garroum.</p>
+	<p>My name is <a href="https://www.linkedin.com/in/skandergarroum/">Skander Garroum</a>.</p>
+
+	<img class="avatar" src="skander.jpg" alt="Skander Garroum" width="120" height="120">
 
 	<p>Currently I am investing first checks in robotics companies with <a href="https://www.prototypecap.com/">PROTOTYPE</a>, doing research for our <a href="https://www.youtube.com/@prototypecap">YouTube channel</a>, obsessing over how the future gets built on <a href="https://www.linkedin.com/in/skandergarroum/">LinkedIn</a> and <a href="https://substack.com/@skandergarroum">Substack</a>, and running the Climate Solutions community &amp; Substack <a href="https://www.climatedrift.com/">Climate Drift</a>.</p>
 
@@ -60,7 +96,20 @@
 
 	<p>Check out some of my content here:</p>
 	<p>
-		→ Follow along my daily research into how we build the future on <a href="https://www.linkedin.com/in/skandergarroum/recent-activity/all/">LinkedIn</a><br>
+		→ Follow along my daily research into how we build the future on <a href="https://www.linkedin.com/in/skandergarroum/recent-activity/all/">LinkedIn</a>
+	</p>
+
+	<div class="carousel">
+		<button class="prev" aria-label="Previous post">‹</button>
+		<div class="track">
+			<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7461039281772376064" title="LinkedIn post" loading="lazy" allowfullscreen></iframe>
+			<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7455717460126859264" title="LinkedIn post" loading="lazy" allowfullscreen></iframe>
+			<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7488932069616623618" title="LinkedIn post" loading="lazy" allowfullscreen></iframe>
+		</div>
+		<button class="next" aria-label="Next post">›</button>
+	</div>
+
+	<p>
 		→ Read my long-form essays on <a href="https://climatedrift.substack.com/p/why-solarpunk-is-already-happening">Solarpunk and what works</a><br>
 		→ Or just watch one of our YouTube videos
 	</p>
@@ -76,5 +125,13 @@
 		<a href="https://x.com/skagarroum">X</a>.
 	</footer>
 </div>
+<script>
+	document.querySelectorAll('.carousel').forEach(function (c) {
+		var track = c.querySelector('.track');
+		var step = function () { return track.querySelector('iframe').offsetWidth + 12; };
+		c.querySelector('.prev').onclick = function () { track.scrollBy({ left: -step() }); };
+		c.querySelector('.next').onclick = function () { track.scrollBy({ left: step() }); };
+	});
+</script>
 </body>
 </html>
