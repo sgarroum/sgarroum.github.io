@@ -1,0 +1,23 @@
+{
+  "greeting": "Živjo 👋",
+  "name": "Ime mi je [Skander Garroum](linkedin).",
+  "intro": "Trenutno s [PROTOTYPE](prototype) kot prvi vlagatelj vlagam v robotska podjetja, raziskujem za naš [YouTube kanal](youtube), na [LinkedIn](linkedin) in [Substack](substack) obsesivno razmišljam o tem, kako se gradi prihodnost, in vodim skupnost ter Substack o podnebnih rešitvah [Climate Drift](climatedrift).",
+  "journey": "Moja pot (do zdaj):",
+  "j1": "Pri 16 letih sem na trajektu na Kitajskem spoznal ustanovitelja startupa",
+  "j2": "Pri 19 letih sem prodal svoje prvo podjetje in se spraševal, kaj se je pravzaprav zgodilo",
+  "j3": "Študiral sem ekonomijo → nekaj modelov je pomagalo, večina ne",
+  "j4": "Popolnoma sem se zaljubil v podatke, teorijo omrežij in razvojno ekonomijo",
+  "j5": "Preselil sem se v San Francisco",
+  "j6": "Pridružil sem se projektu Startup Genome Project na Stanfordu, da bi razumel, zakaj startupi preživijo ali propadejo",
+  "j7": "Pomagal sem graditi produkt in rast v podjetju Compass, spin-offu za primerjalno analizo podatkov",
+  "j8": "Compass je prevzel Sage, kjer je naša ekipa postala oddelek za UI",
+  "j9": "Soustanovil sem [Airy](airy), podatkovno infrastrukturo za UI v realnem času, med Berlinom in SF",
+  "j10": "Nekaj let, nekaj investicijskih krogov, lansiranj izdelkov in zgodb pozneje: Airy smo prodali vodilnemu v kategoriji, nato pa je prešel k IBM",
+  "j11": "Soustanovil sem [Climate Drift](climatedrift), svoj poskus, da naredim nekaj koristnega glede podnebne krize",
+  "j12": "Zdaj vlagam in raziskujem pri [PROTOTYPE](prototype)",
+  "content": "Poglej nekaj moje vsebine:",
+  "c1": "→ Na [LinkedIn](linkedinActivity) spremljaj moje vsakodnevno raziskovanje o tem, kako gradimo prihodnost",
+  "c2": "→ Preberi moje daljše eseje: [„Zakaj se solarpunk v Afriki že dogaja“](solarpunk), [Podnebne rešitve in še več](climatedriftSubstack)",
+  "c3": "→ Ali pa si preprosto oglej katerega od naših videov na YouTube",
+  "footer": "Najdeš me na [LinkedIn](linkedin), [Substack](substack) in [X](x)."
+}

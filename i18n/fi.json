@@ -1,0 +1,23 @@
+{
+  "greeting": "Moikka 👋",
+  "name": "Nimeni on [Skander Garroum](linkedin).",
+  "intro": "Tällä hetkellä teen ensimmäisiä sijoituksia robotiikkayhtiöihin [PROTOTYPE](prototype)-rahastossa, teen taustatyötä [YouTube-kanavallemme](youtube), pohdin pakkomielteisesti, miten tulevaisuutta rakennetaan, [LinkedInissä](linkedin) ja [Substackissa](substack), ja pyöritän ilmastoratkaisuyhteisöä ja Substackia nimeltä [Climate Drift](climatedrift).",
+  "journey": "Matka (tähän mennessä):",
+  "j1": "16-vuotiaana tapasin yrittäjän lautalla Kiinassa",
+  "j2": "19-vuotiaana myin ensimmäisen yritykseni ja mietin, mitä juuri tapahtui",
+  "j3": "Opiskelin taloustiedettä → muutamasta mallista oli apua, useimmista ei",
+  "j4": "Hullaannuin dataan, verkostoteoriaan ja kehitystaloustieteeseen",
+  "j5": "Muutin San Franciscoon",
+  "j6": "Liityin Startup Genome Projectiin Stanfordissa oppiakseni, miksi startupit menestyvät tai kaatuvat",
+  "j7": "Olin rakentamassa tuotetta ja kasvua Compassissa, datan vertailuanalytiikkaan keskittyneessä spinoffissa",
+  "j8": "Sage osti Compassin, ja tiimistämme tuli tekoälyyksikkö",
+  "j9": "Perustin [Airyn](airy) – reaaliaikaista tekoälyn datainfrastruktuuria – Berliinin ja SF:n välillä",
+  "j10": "Muutama vuosi, pari rahoituskierrosta, tuotelanseerauksia ja tarinoita myöhemmin: Airy myytiin alan johtajalle ja sitten IBM:lle",
+  "j11": "Perustin [Climate Driftin](climatedrift), yritykseni tehdä jotain hyödyllistä ilmasto-ongelman eteen",
+  "j12": "Nyt sijoitan ja teen tutkimusta [PROTOTYPElla](prototype)",
+  "content": "Tsekkaa osa sisällöistäni täältä:",
+  "c1": "→ Seuraa päivittäistä tutkimustani siitä, miten rakennamme tulevaisuutta, [LinkedInissä](linkedinActivity)",
+  "c2": "→ Lue pitkiä esseitäni, kuten [”Miksi solarpunk tapahtuu jo Afrikassa”](solarpunk), [ilmastoratkaisuista ja muusta](climatedriftSubstack)",
+  "c3": "→ Tai katso vaikka joku YouTube-videoistamme",
+  "footer": "Löydät minut [LinkedInistä](linkedin), [Substackista](substack) ja [X:stä](x)."
+}

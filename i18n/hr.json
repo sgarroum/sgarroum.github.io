@@ -1,0 +1,23 @@
+{
+  "greeting": "Bok 👋",
+  "name": "Zovem se [Skander Garroum](linkedin).",
+  "intro": "Trenutno s [PROTOTYPE](prototype) kao prvi investitor ulažem u robotičke tvrtke, istražujem za naš [YouTube kanal](youtube), na [LinkedIn](linkedin) i [Substack](substack) opsesivno pišem o tome kako se gradi budućnost te vodim zajednicu i Substack o klimatskim rješenjima [Climate Drift](climatedrift).",
+  "journey": "Moj put (zasad):",
+  "j1": "Sa 16 godina upoznao sam osnivača startupa na trajektu u Kini",
+  "j2": "Sa 19 sam prodao svoju prvu tvrtku i pitao se što se upravo dogodilo",
+  "j3": "Studirao sam ekonomiju → nekoliko modela je pomoglo, većina nije",
+  "j4": "Potpuno sam se zaljubio u podatke, teoriju mreža i razvojnu ekonomiju",
+  "j5": "Preselio sam se u San Francisco",
+  "j6": "Pridružio sam se projektu Startup Genome Project na Stanfordu kako bih shvatio zašto startupi opstanu ili propadnu",
+  "j7": "Pomagao sam graditi proizvod i rast u tvrtki Compass, spin-offu za benchmarking podataka",
+  "j8": "Compass je preuzeo Sage, gdje je naš tim postao odjel za UI",
+  "j9": "Suosnovao sam [Airy](airy), podatkovnu infrastrukturu za UI u stvarnom vremenu, između Berlina i SF-a",
+  "j10": "Nekoliko godina, par rundi financiranja, lansiranja proizvoda i priča kasnije: Airy je prodan lideru kategorije, a zatim IBM-u",
+  "j11": "Suosnovao sam [Climate Drift](climatedrift), svoj pokušaj da učinim nešto korisno u vezi s klimatskom krizom",
+  "j12": "Sada ulažem i istražujem u [PROTOTYPE](prototype)",
+  "content": "Pogledaj dio mog sadržaja:",
+  "c1": "→ Prati moje svakodnevno istraživanje o tome kako gradimo budućnost na [LinkedIn](linkedinActivity)",
+  "c2": "→ Pročitaj moje duže eseje: [„Zašto se solarpunk već događa u Africi“](solarpunk), [Klimatska rješenja i više](climatedriftSubstack)",
+  "c3": "→ Ili jednostavno pogledaj neki od naših YouTube videa",
+  "footer": "Nađi me na [LinkedIn](linkedin), [Substack](substack) i [X](x)."
+}

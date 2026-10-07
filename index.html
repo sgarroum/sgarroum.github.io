@@ -33,6 +33,19 @@
 	}
 	.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 	footer { margin-top: 32px; }
+	#lang {
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		font: inherit;
+		font-size: 14px;
+		padding: 4px 6px;
+		border: 1px solid #ddd;
+		border-radius: 6px;
+		background: #fff;
+		color: #000;
+		cursor: pointer;
+	}
 	.avatar { display: block; width: 120px; height: 120px; border-radius: 16px; object-fit: cover; }
 	.carousel { position: relative; margin: 12px 0 24px; }
 	.track {
@@ -71,37 +84,38 @@
 </head>
 
 <body>
+<select id="lang" aria-label="Language"></select>
 <div id="maincontent">
-	<h2>Hey there 👋</h2>
+	<h2 data-i18n="greeting">Hey there 👋</h2>
 
-	<p>My name is <a href="https://www.linkedin.com/in/skandergarroum/">Skander Garroum</a>.</p>
+	<p data-i18n="name">My name is <a href="https://www.linkedin.com/in/skandergarroum/">Skander Garroum</a>.</p>
 
 	<img class="avatar" src="skander.jpg" alt="Skander Garroum" width="120" height="120">
 
-	<p>Currently I am investing first checks in robotics companies with <a href="https://www.prototypecap.com/">PROTOTYPE</a>, doing research for our <a href="https://www.youtube.com/@prototypecap">YouTube channel</a>, obsessing over how the future gets built on <a href="https://www.linkedin.com/in/skandergarroum/">LinkedIn</a> and <a href="https://substack.com/@skandergarroum">Substack</a>, and running the Climate Solutions community &amp; Substack <a href="https://www.climatedrift.com/">Climate Drift</a>.</p>
+	<p data-i18n="intro">Currently I am investing first checks in robotics companies with <a href="https://www.prototypecap.com/">PROTOTYPE</a>, doing research for our <a href="https://www.youtube.com/@prototypecap">YouTube channel</a>, obsessing over how the future gets built on <a href="https://www.linkedin.com/in/skandergarroum/">LinkedIn</a> and <a href="https://substack.com/@skandergarroum">Substack</a>, and running the Climate Solutions community &amp; Substack <a href="https://www.climatedrift.com/">Climate Drift</a>.</p>
 
 	<hr>
 
-	The journey (so far):
+	<span data-i18n="journey">The journey (so far):</span>
 	<ul>
-		<li>At 16, I met a founder on a ferry in China</li>
-		<li>At 19, I exited my first company and asked what just happened</li>
-		<li>Studied economics → a few frameworks helped, most didn't</li>
-		<li>Fell hard for data, network theory, and development economics</li>
-		<li>Moved to San Francisco</li>
-		<li>Joined the Startup Genome Project at Stanford to learn why startups live or die</li>
-		<li>Helped build product and growth at Compass, a data benchmarking spinout</li>
-		<li>Compass acquired by Sage, where our team became the AI division</li>
-		<li>Co-founded <a href="https://airy.co/">Airy</a>, real-time AI data infrastructure, between Berlin and SF</li>
-		<li>A few years, a couple of raises, product launches and stories later: Airy sold to the category leader, then to IBM</li>
-		<li>Co-founded <a href="https://www.climatedrift.com/">Climate Drift</a>, my attempt to do something useful about the climate problem</li>
-		<li>Now investing and researching at <a href="https://www.prototypecap.com/">PROTOTYPE</a></li>
+		<li data-i18n="j1">At 16, I met a founder on a ferry in China</li>
+		<li data-i18n="j2">At 19, I exited my first company and asked what just happened</li>
+		<li data-i18n="j3">Studied economics → a few frameworks helped, most didn't</li>
+		<li data-i18n="j4">Fell hard for data, network theory, and development economics</li>
+		<li data-i18n="j5">Moved to San Francisco</li>
+		<li data-i18n="j6">Joined the Startup Genome Project at Stanford to learn why startups live or die</li>
+		<li data-i18n="j7">Helped build product and growth at Compass, a data benchmarking spinout</li>
+		<li data-i18n="j8">Compass acquired by Sage, where our team became the AI division</li>
+		<li data-i18n="j9">Co-founded <a href="https://airy.co/">Airy</a>, real-time AI data infrastructure, between Berlin and SF</li>
+		<li data-i18n="j10">A few years, a couple of raises, product launches and stories later: Airy sold to the category leader, then to IBM</li>
+		<li data-i18n="j11">Co-founded <a href="https://www.climatedrift.com/">Climate Drift</a>, my attempt to do something useful about the climate problem</li>
+		<li data-i18n="j12">Now investing and researching at <a href="https://www.prototypecap.com/">PROTOTYPE</a></li>
 	</ul>
 
 	<hr>
 
-	<p>Check out some of my content here:</p>
-	<p>
+	<p data-i18n="content">Check out some of my content here:</p>
+	<p data-i18n="c1">
 		→ Follow along my daily research into how we build the future on <a href="https://www.linkedin.com/in/skandergarroum/recent-activity/all/">LinkedIn</a>
 	</p>
 
@@ -116,15 +130,15 @@
 	</div>
 
 	<p>
-		→ Read my long-form essays on <a href="https://climatedrift.substack.com/p/why-solarpunk-is-already-happening">"Why Solarpunk is already happening in Africa"</a>, <a href="https://climatedrift.substack.com/">Climate solutions and more</a><br>
-		→ Or just watch one of our YouTube videos
+		<span data-i18n="c2">→ Read my long-form essays on <a href="https://climatedrift.substack.com/p/why-solarpunk-is-already-happening">"Why Solarpunk is already happening in Africa"</a>, <a href="https://climatedrift.substack.com/">Climate solutions and more</a></span><br>
+		<span data-i18n="c3">→ Or just watch one of our YouTube videos</span>
 	</p>
 
 	<div class="video">
 		<iframe src="https://www.youtube-nocookie.com/embed/OgYKVpOsMJs" title="Every Reason China Keeps Winning at Manufacturing" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 	</div>
 
-	<footer>
+	<footer data-i18n="footer">
 		Find me on
 		<a href="https://www.linkedin.com/in/skandergarroum/">LinkedIn</a>,
 		<a href="https://substack.com/@skandergarroum">Substack</a> and
@@ -138,6 +152,61 @@
 		c.querySelector('.prev').onclick = function () { track.scrollBy({ left: -step() }); };
 		c.querySelector('.next').onclick = function () { track.scrollBy({ left: step() }); };
 	});
+
+	var LANGS = [
+		['en','🇪🇺','EN'],['de','🇩🇪','DE'],['fr','🇫🇷','FR'],
+		['bg','🇧🇬','BG'],['cs','🇨🇿','CS'],['da','🇩🇰','DA'],['el','🇬🇷','EL'],['es','🇪🇸','ES'],
+		['et','🇪🇪','ET'],['fi','🇫🇮','FI'],['ga','🇮🇪','GA'],['hr','🇭🇷','HR'],['hu','🇭🇺','HU'],
+		['it','🇮🇹','IT'],['lt','🇱🇹','LT'],['lv','🇱🇻','LV'],['mt','🇲🇹','MT'],['nl','🇳🇱','NL'],
+		['pl','🇵🇱','PL'],['pt','🇵🇹','PT'],['ro','🇷🇴','RO'],['sk','🇸🇰','SK'],['sl','🇸🇮','SL'],
+		['sv','🇸🇪','SV']
+	];
+	var LINKS = {
+		linkedin: 'https://www.linkedin.com/in/skandergarroum/',
+		linkedinActivity: 'https://www.linkedin.com/in/skandergarroum/recent-activity/all/',
+		prototype: 'https://www.prototypecap.com/',
+		youtube: 'https://www.youtube.com/@prototypecap',
+		substack: 'https://substack.com/@skandergarroum',
+		climatedrift: 'https://www.climatedrift.com/',
+		climatedriftSubstack: 'https://climatedrift.substack.com/',
+		solarpunk: 'https://climatedrift.substack.com/p/why-solarpunk-is-already-happening',
+		airy: 'https://airy.co/',
+		x: 'https://x.com/skagarroum'
+	};
+	var original = {};
+	document.querySelectorAll('[data-i18n]').forEach(function (el) { original[el.dataset.i18n] = el.innerHTML; });
+
+	function render(text) {
+		var esc = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+		return esc.replace(/\[([^\]]+)\]\((\w+)\)/g, function (m, label, key) {
+			return LINKS[key] ? '<a href="' + LINKS[key] + '">' + label + '</a>' : label;
+		});
+	}
+	function apply(code, dict) {
+		document.querySelectorAll('[data-i18n]').forEach(function (el) {
+			var k = el.dataset.i18n;
+			el.innerHTML = dict && dict[k] ? render(dict[k]) : original[k];
+		});
+		document.documentElement.lang = code;
+	}
+	function setLang(code) {
+		try { localStorage.setItem('lang', code); } catch (e) {}
+		if (code === 'en') return apply('en', null);
+		fetch('i18n/' + code + '.json').then(function (r) { return r.json(); })
+			.then(function (d) { apply(code, d); })
+			.catch(function () { apply('en', null); select.value = 'en'; });
+	}
+
+	var select = document.getElementById('lang');
+	LANGS.forEach(function (l) {
+		var o = document.createElement('option');
+		o.value = l[0]; o.textContent = l[1] + ' ' + l[2];
+		select.appendChild(o);
+	});
+	select.onchange = function () { setLang(select.value); };
+	var saved = 'en';
+	try { saved = localStorage.getItem('lang') || 'en'; } catch (e) {}
+	if (saved !== 'en' && LANGS.some(function (l) { return l[0] === saved; })) { select.value = saved; setLang(saved); }
 </script>
 </body>
 </html>
